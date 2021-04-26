@@ -13,7 +13,7 @@ function váltás() {
 function addHeader(){
     let table = document.querySelector(".table");
     let newHeader = document.createElement("tr");
-    newHeader.innerText = document.getElementById('add');
+    newHeader.innerText = document.getElementById('add').value;
     table.appendChild(newHeader); 
 }
 
